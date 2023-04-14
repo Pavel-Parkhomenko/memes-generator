@@ -78,14 +78,10 @@ html, body {
     outline: none;
   }
 
-  .meme--img {
-    max-width: 100%;
-    border-radius: 1.75vw;
-  }
-
   .img--container {
-    display: flex;
-    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
     position: relative;
   }
 
@@ -137,9 +133,8 @@ html, body {
 
   .header--container {
     height: 85px;
-    padding: 0px 30px 0px 30px;
+    padding: 0 30px 0 30px;
   }
-
 
   .face--img {
     width: 31px;
@@ -177,15 +172,6 @@ html, body {
     padding: 10px;
     width: 213px;
     margin-bottom: 20px;
-  }
-
-  .meme--img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-
-  .img--container {
-    margin: 20px;
   }
 
   .img--text {
